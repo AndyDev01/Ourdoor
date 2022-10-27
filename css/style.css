@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 h2 {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -328,6 +334,7 @@ h2 {
   padding: 0 0 12px 0;
   font-size: 20px;
   line-height: 24px;
+  min-height: 60px;
 }
 #guides .main_wrapper p {
   margin: 0;
@@ -348,16 +355,55 @@ h2 {
   color: #E6B939;
 }
 #guides .main_wrapper .user_wrapper .user_info ul {
-  list-style-type: none;
   margin: 0 0 0 12px;
-  padding: 0;
 }
 
 #footer {
   padding: 100px 0;
   background-color: #575445;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
 }
 #footer .footer_logo {
-  display: block;
+  padding-bottom: 75px;
   margin: auto;
+  display: block;
+}
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .wrapper ul {
+  max-width: 457px;
+}
+#footer .wrapper ul li {
+  padding-top: 9px;
+}
+#footer .wrapper .input {
+  border: none;
+  padding: 16px 0 16px 21px;
+}
+#footer .wrapper form {
+  position: absolute;
+  margin-top: 9px;
+}
+#footer .wrapper form input {
+  width: 457px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+#footer .wrapper form button {
+  position: relative;
+  padding: 10px 12px;
+  right: 84px;
+  background: #575445;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
 }
