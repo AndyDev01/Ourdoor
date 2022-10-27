@@ -306,6 +306,53 @@ h2 {
   padding: 0 88px;
 }
 
+#guides {
+  padding-top: 100px;
+}
+#guides .text {
+  max-width: 600px;
+}
+#guides .main_wrapper {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#guides .main_wrapper .item {
+  max-width: 568px;
+}
+#guides .main_wrapper .item > img {
+  margin-bottom: 18px;
+}
+#guides .main_wrapper .item .descr {
+  padding: 0 0 12px 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+#guides .main_wrapper p {
+  margin: 0;
+}
+#guides .main_wrapper .user_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#guides .main_wrapper .user_wrapper .user_info {
+  display: flex;
+  align-items: center;
+}
+#guides .main_wrapper .user_wrapper .user_info .name {
+  font-family: "Roboto", sans-serif;
+}
+#guides .main_wrapper .user_wrapper .user_info .position {
+  color: #E6B939;
+}
+#guides .main_wrapper .user_wrapper .user_info ul {
+  list-style-type: none;
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+
 #footer {
   padding: 100px 0;
   background-color: #575445;
