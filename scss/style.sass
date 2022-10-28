@@ -74,7 +74,7 @@ h2
     height: 2px
     transform: scaleY(0)
     background-color: $gold
-    transition: transform 0.3s
+    transition: transform 0.4s
   &:hover
     &:after
         transform: scaleY(1)
@@ -82,7 +82,7 @@ h2
 /* blocks */
 
 
-#header
+.header
   .inner_header
     display: flex
     align-items: center
@@ -139,7 +139,7 @@ h2
         line-height: 25px
         padding: 0 89px 1.5px 0
 
-#who
+.who
   // display: flex
   // align-items: center
   padding: 100px 0
@@ -156,7 +156,7 @@ h2
     max-width: 400px
     padding: 0 88px
     
-#promise
+.promise
   background: #FAFAFC
   padding: 99px 0 159px 0
   .text
@@ -180,7 +180,7 @@ h2
       h3
         margin: 10px 0px
 
-#categories
+.categories
   padding: 100px 0
   .container
     >.arrow_button
@@ -220,7 +220,7 @@ h2
       button
         background-color: transparent
 
-#serf
+.serf
   background-image: url(../img/shop/serf.jpg)
   background-size: cover
   background-repeat: no-repeat
@@ -248,7 +248,7 @@ h2
     line-height: 12px
     img
       margin-right: 8px
-#shop
+.shop
   background-color:#375C58
   background-image: url(../img/shop/decorations.jpg)
   .subtitle
@@ -267,7 +267,7 @@ h2
       color: #FFFFFF
       margin-bottom: 21px
 
-#magazine
+.magazine
   padding: 100px 0
   .wrapper
     display: flex
@@ -282,13 +282,14 @@ h2
     max-width: 400px
     padding: 0 88px
 
-#guides
+.guides
   padding-top: 100px
   .text
     max-width: 600px
   .main_wrapper
     margin-top: 21px
     display: flex
+    flex-wrap: wrap
     justify-content: space-between
     align-items: center
     .item
@@ -316,7 +317,7 @@ h2
         ul
           margin: 0 0 0 12px
     
-#footer
+.footer
   padding: 100px 0
   background-color: $accent
   color: #FFFFFF
@@ -337,7 +338,7 @@ h2
       border: none
       padding: 16px 0 16px 21px
     form
-      position: absolute
+      position: relative
       margin-top: 9px
       >input
         width: 457px
@@ -347,11 +348,14 @@ h2
         font-size: 14px
         line-height: 20px
         outline: none
+        position: absolute
+        max-width: 441px
       >button
-        position: relative
+        position: absolute
         cursor: pointer
         padding: 10px 12px
-        right: 84px
+        top: 6px 
+        right: 1px
         background: #575445
         color: #FFFFFF
         border-radius: 10px

@@ -1,0 +1,53 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices*/
+.header .inner_header {
+  padding: 0 15px;
+}
+
+.header .inner_header .heading .mnu > li > a {
+  padding: 10px 10px;
+}
+
+.header .main_banner .exploration {
+  padding-left: 15px;
+}
+
+.who .text {
+  padding: 0 0 0 0;
+  margin-left: 88px;
+}
+
+.promise .items {
+  justify-content: space-around;
+}
+
+.categories .cards {
+  padding: 0 60px;
+}
+
+.guides .text {
+  text-align: center;
+  margin: auto;
+}
+
+.guides .main_wrapper {
+  justify-content: center;
+}
+.guides .main_wrapper .item {
+  margin-bottom: 100px;
+}
+
+.footer {
+  padding: 100px 15px;
+}
+
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+}
+/* Custom, iPhone Retina */
