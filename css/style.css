@@ -396,6 +396,9 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+.footer .wrapper .news {
+  margin-top: 25px;
+}
 .footer .wrapper ul {
   max-width: 457px;
 }

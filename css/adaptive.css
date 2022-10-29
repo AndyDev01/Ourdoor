@@ -42,11 +42,86 @@
 }
 
 /* Medium Devices, Desktops */
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/
+.header .inner_header .heading .buttons {
+  display: none;
 }
-/* Extra Small Devices, Phones */
+
+.serf .menu {
+  right: 53px;
+}
+
+.magazine .text {
+  padding: 0;
+}
+
+.footer .wrapper {
+  flex-wrap: wrap;
+  padding: 0 25px;
+}
+
+.header .inner_header .heading .mnu {
+  margin-left: 40px;
+}
+
+.header .container .inner_header .logo {
+  margin-right: 75px;
+}
+
+.who .wrapper {
+  flex-wrap: wrap;
+}
+
+.who .text {
+  text-align: center;
+  margin-left: 45px;
+}
+
+.promise .items .item {
+  padding: 25px 25px;
+}
+
+.categories .cards .card {
+  margin-bottom: 21px;
+}
+
+.serf .menu {
+  display: none;
+}
+
+.shop .text {
+  padding: 15px 15px;
+}
+
+.guides .text {
+  margin: 0 15px;
+}
+
+.guides .main_wrapper .item .descr {
+  text-align: center;
+}
+
+.guides .main_wrapper .user_wrapper {
+  justify-content: space-around;
+}
+
+.magazine .wrapper {
+  flex-wrap: wrap;
+}
+
+.magazine .text {
+  text-align: center;
+  padding-left: 45px;
+}
+
+.footer .wrapper .input {
+  max-width: 386px;
+}
+
+.footer .wrapper ul {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
 @media only screen and (max-width: 480px) {
   /**/
 }
